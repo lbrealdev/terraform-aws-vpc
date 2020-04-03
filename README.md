@@ -1,8 +1,10 @@
-# terraform-groundwork-vpc
+# terraform-aws-vpc
 
 ## Use this module
 
 ```
+From GitHub
+
 provider "aws" {
   region = "eu-central-1"
 }
