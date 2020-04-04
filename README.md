@@ -3,6 +3,17 @@
 ## Use this module
 
 ```
+From Terraform Registry
+
+module "vpc" {
+  source  = "lbrealdev/vpc/aws"
+  version = "0.0.1"
+  
+  cidr_block = "172.0.0.0/16"
+}
+
+```
+```
 From GitHub
 
 provider "aws" {
@@ -14,18 +25,7 @@ module "vpc" {
 
   cidr_block = "172.0.0.0/16"
 }
-
-From Terraform Registry
-
-module "vpc" {
-  source  = "lbrealdev/vpc/aws"
-  version = "0.0.1"
-  
-  cidr_block = "172.0.0.0/16"
-}
-
 ```
-
 ```
 Terraform module lifecycle
 
