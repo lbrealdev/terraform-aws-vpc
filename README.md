@@ -5,6 +5,10 @@
 ```
 From Terraform Registry
 
+provider "aws" {
+  region = "eu-central-1"
+}
+
 module "vpc" {
   source  = "lbrealdev/vpc/aws"
   version = "0.0.1"
