@@ -25,7 +25,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  source = "git::github.com/lbrealdev/terraform-aws-groundwork-vpc"
+  source = "git::github.com/lbrealdev/terraform-aws-vpc"
 
   cidr_block = "172.0.0.0/16"
 }
