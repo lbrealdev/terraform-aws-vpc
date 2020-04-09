@@ -29,7 +29,7 @@ module "vpc" {
   cidr_block = "172.0.0.0/16"
 }
 ```
-Terraform module lifecycle
+Terraform module workflow
 
 1. Init terraform
 ```
