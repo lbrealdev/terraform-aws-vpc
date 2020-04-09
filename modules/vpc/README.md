@@ -1,6 +1,6 @@
 # terraform-aws-vpc
 
-Terraform lifecycle
+Terraform workflow
 
 1. Init terraform
 ```
