@@ -1,9 +1,9 @@
 # terraform-aws-vpc
 
 ## Use this module
-```
-From Terraform Registry
 
+From Terraform Registry
+```
 provider "aws" {
   region = "eu-central-1"
 }
@@ -15,9 +15,8 @@ module "vpc" {
   cidr_block = "172.0.0.0/16"
 }
 ```
-```
 From GitHub
-
+```
 provider "aws" {
   region = "eu-central-1"
 }
