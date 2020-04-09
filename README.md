@@ -1,6 +1,6 @@
 # terraform-aws-vpc
 
-## Use this module
+### Use this module
 
 From Terraform Registry
 ```
@@ -27,7 +27,7 @@ module "vpc" {
   cidr_block = "172.0.0.0/16"
 }
 ```
-Terraform module workflow
+### Terraform module workflow
 
 1. Init terraform
 ```
