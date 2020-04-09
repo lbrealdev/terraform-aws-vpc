@@ -14,7 +14,6 @@ module "vpc" {
   
   cidr_block = "172.0.0.0/16"
 }
-
 ```
 ```
 From GitHub
