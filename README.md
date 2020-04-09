@@ -1,7 +1,6 @@
 # terraform-aws-vpc
 
 ## Use this module
-
 ```
 From Terraform Registry
 
@@ -69,5 +68,4 @@ The terraform get command is used to download and update modules mentioned in th
 terraform get
  
 terraform get -update
-
 ```
